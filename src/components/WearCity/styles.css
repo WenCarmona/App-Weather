@@ -1,0 +1,45 @@
+.appContent{
+    margin: 0;
+    background-image: url(https://previews.123rf.com/images/sborisov/sborisov1710/sborisov171000243/88685906-soleado-paisaje-de-oto%C3%B1o-con-%C3%A1rboles-de-oro-y-cielo-azul-en-el-campo.jpg);
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.headerContainer {
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1088.840px;
+    background-color: rgb(135, 206, 250, 0.6);
+}
+
+.card {
+    background-color: rgb(135, 206, 250, 0.6);
+    padding: 8px;
+    border: solid 0.5px #87cefa;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.img-Card {
+    width: 52px;
+    height: 52px;
+}
+
+.firma {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 24px;
+    color: white;
+}
